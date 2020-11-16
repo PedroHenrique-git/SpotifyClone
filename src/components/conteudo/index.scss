@@ -1,5 +1,21 @@
 $background: #2b2a2b;
+
 .main-container{
     grid-area: main-container;
     background: $background;
+    padding: 10px 50px;
+}
+
+.recentemente{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .musics{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
 }

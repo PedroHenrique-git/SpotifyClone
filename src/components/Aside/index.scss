@@ -47,6 +47,10 @@ aside{
             &:hover{
                 transition: all .6s;
                 color: rgba($color: #ffffff, $alpha: 1.0);
+
+                svg{
+                    color: rgba($color: #ffffff, $alpha: 1.0);
+                }
             }
         }
     }
