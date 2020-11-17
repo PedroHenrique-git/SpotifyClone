@@ -4,18 +4,25 @@ $background: #2b2a2b;
     grid-area: main-container;
     background: $background;
     padding: 10px 50px;
+    overflow: auto
 }
 
 .recentemente{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 30px;
+    
+    h1{
+        color: #fff;
+        font-size: 24px;
+    }
 
     .musics{
         width: 100%;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 }
