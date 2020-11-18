@@ -7,7 +7,7 @@ import Conteudo from '../conteudo';
 
 export default function Main(){
     return(
-        <div onScroll={() => alert('Scrollado')} className="container">
+        <div className="container">
             <Header />
             <Aside />
             <Conteudo />
