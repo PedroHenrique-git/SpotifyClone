@@ -50,7 +50,7 @@ export default function Aside(){
                         Músicas curtidas
                     </div>
                 </div>
-                {/*<div className="playlist-el-2">
+                <div className="playlist-el-2">
                     <ul>
                         <li>
                             <a href="#">Playlist 1</a>
@@ -71,7 +71,7 @@ export default function Aside(){
                             <a href="#">Playlist 6</a>
                         </li>
                     </ul>
-                </div>*/}
+                </div>
             </div>
         </aside>
     );

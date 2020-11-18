@@ -1,27 +1,29 @@
-$background: #2b2a2b;
+$background: #121212;
 
 .main-container{
     grid-area: main-container;
     background: $background;
     padding: 10px 50px;
-    overflow: auto
+    overflow: auto;
 }
 
-.recentemente{
+.topics-musics{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-bottom: 30px;
+
     
     h1{
         color: #fff;
         font-size: 24px;
+        padding: 0 33px;
     }
 
     .musics{
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         margin-top: 5px;
     }

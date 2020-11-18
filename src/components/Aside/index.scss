@@ -55,6 +55,16 @@ aside{
         }
     }
 
+    .playlist-el-2{
+        overflow: auto;
+        ul{
+            li{
+                list-style: none;
+                padding: 10px 0;    
+            }
+        }
+    }
+
     ul{
         display: flex;
         flex-direction: column;

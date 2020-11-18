@@ -5,7 +5,7 @@ import Card from '../Card';
 export default function Conteudo(){
     return (
         <main className="main-container">
-            <div className="recentemente">
+            <div className="topics-musics">
                 <h1>Tocados recentemente</h1>
                 <div className="musics">
                     <Card 
@@ -43,11 +43,21 @@ export default function Conteudo(){
                         nameArtist='Metallica'
                         nameMusic="Phantom Lord"
                     />
+                    <Card 
+                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
+                        nameArtist='Metallica'
+                        nameMusic="Phantom Lord"
+                    />
                 </div>
             </div>
-            <div className="recentemente">
+            <div className="topics-musics">
                 <h1>Paradas</h1>
                 <div className="musics">
+                    <Card 
+                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
+                        nameArtist='Metallica'
+                        nameMusic="Phantom Lord"
+                    />
                     <Card 
                         image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
                         nameArtist='Metallica'
@@ -84,129 +94,6 @@ export default function Conteudo(){
                         nameMusic="Phantom Lord"
                     />
                 </div>    
-            </div>
-            <div className="recentemente">
-                <h1>Paradas</h1>
-                <div className="musics">
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                </div>
-                
-            </div>
-            <div className="recentemente">
-                <h1>Paradas</h1>
-                <div className="musics">
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                </div>
-                
-            </div>
-            <div className="recentemente">
-                <h1>Paradas</h1>
-                <div className="musics">
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                    <Card 
-                        image='https://1.bp.blogspot.com/-aqWRWMuaHF8/V7Y07HBM2CI/AAAAAAAAJB0/qiuNqvso9nQD31dfbTgI_oO2vZ5bj8NYQCEw/s1600/Folder.jpg'
-                        nameArtist='Metallica'
-                        nameMusic="Phantom Lord"
-                    />
-                </div>
-                
             </div>
         </main>
     );
