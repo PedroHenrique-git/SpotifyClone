@@ -3,6 +3,10 @@ import './index.scss';
 import { FiPlayCircle } from 'react-icons/fi';
 import { BiSkipNext, BiSkipPrevious } from 'react-icons/bi';
 import { FiRepeat } from 'react-icons/fi';
+import { GiMicrophone } from 'react-icons/gi';
+import { MdQueueMusic } from 'react-icons/md';
+import { BsVolumeUpFill } from 'react-icons/bs';
+import { TiDeviceLaptop } from 'react-icons/ti';
 
 export default function DownBar(){
     return (
@@ -23,7 +27,13 @@ export default function DownBar(){
                 </div>
                 <div className="progressBar"></div>
             </div>
-            <div className="music-other-options"></div>
+            <div className="music-other-options">
+                <a href="#"><GiMicrophone /></a>
+                <a href="#"><MdQueueMusic/></a>
+                <a href="#"><TiDeviceLaptop /></a>
+                <a href="#"><BsVolumeUpFill /></a>
+                <div className="volume"></div>
+            </div>
         </footer>
     );
 }

@@ -6,6 +6,10 @@ aside{
     grid-area: aside;
     background: $background;
 
+    @media (max-width: 640px){
+        display: none;
+    }
+
     .playlist{
         padding: 20px;
     }
