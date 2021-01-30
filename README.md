@@ -1,6 +1,17 @@
-<h1>Clone da interface inicial do web player do spotify</h1>
+## Clone of the spotify home web player interface
 
-<p>Clone da interface inicial do spotify. Este projeto foi feito para treinar alguns conceitos de ReactJs e css, logo conteúdos como imagens e textos são estáticos e não dinâmicos.</p>
-<b>obs: A versão mobile não foi implementada</b>
+Clone of the spotify home interface. This project was made to train some concepts of ReactJs and css, therefore contents such as images and texts are static and not dynamic.
+<b>note: The mobile version was not implemented</b>
+
+## Built With
+
+* [ReactJs](https://pt-br.reactjs.org/) 
+* [Sass](https://sass-lang.com/)
+
+## Images
 
 <img src="src/imagens/desktop_spotify.png">
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
